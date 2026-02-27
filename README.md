@@ -21,6 +21,8 @@ Este repositorio documenta mi trayectoria de aprendizaje en el curso de Python i
 - Manipular estructuras de datos complejas eficientemente
 - Desarrollar código modular y reutilizable
 - Implementar manejo robusto de archivos y excepciones
+- Aplicar Programación Orientada a Objetos para diseño de software
+- Automatizar tareas del sistema operativo con scripts
 - Prepararse para desarrollo backend y análisis de datos
 
 ---
@@ -57,7 +59,24 @@ Estructuras de datos avanzadas, programación modular y gestión de archivos.
 
 ---
 
-### 🔜 Unidad 3: Conceptos Avanzados
+### ✅ [Unidad 3: POO y Automatización](./Unidad-3-POO-Automatizacion)
+Programación Orientada a Objetos, polimorfismo y scripts de automatización del sistema.
+
+**Temas:**
+- 🎯 Clases, objetos y herencia
+- 🔄 Polimorfismo y Duck Typing
+- 🔒 Encapsulamiento con `@property`
+- 🤖 Automatización con `os` y `shutil`
+- 📖 [Notas Conceptuales Completas](./Unidad-3-POO-Automatizacion/notas.md)
+
+**Archivos de Práctica:**
+- [`u3_tema_1_clases,_herencias.py`](./Unidad-3-POO-Automatizacion/u3_tema_1_clases,_herencias.py)
+- [`u3_tema_2_polimorfismo.py`](./Unidad-3-POO-Automatizacion/u3_tema_2_polimorfismo.py)
+- [`u3_tema_3_creación_de_scripts_automatizados.py`](./Unidad-3-POO-Automatizacion/u3_tema_3_creación_de_scripts_automatizados.py)
+
+---
+
+### 🔜 Unidad 4: Temas Avanzados
 *(Por definir - Próximamente)*
 
 ---
@@ -99,11 +118,18 @@ cd Unidad-2-Manejo-de-Datos
 python u2_tema_1_listas,_tuplas,_conjuntos_y_diccionarios.py
 ```
 
+```bash
+# Ejemplo: Ejecutar práctica de la Unidad 3
+cd Unidad-3-POO-Automatizacion
+python u3_tema_1_clases,_herencias.py
+```
+
 ### Explorar las Notas Conceptuales
 
 Cada unidad incluye un archivo `notas.md` con explicaciones detalladas, fundamentos teóricos y mejores prácticas:
 - [📖 Notas Unidad 1 - Fundamentos](./Unidad-1-Fundamentos/notas.md)
 - [📖 Notas Unidad 2 - Manejo de Datos](./Unidad-2-Manejo-de-Datos/notas.md)
+- [📖 Notas Unidad 3 - POO y Automatización](./Unidad-3-POO-Automatizacion/notas.md)
 
 ---
 
