@@ -4,10 +4,11 @@ Este repositorio contiene mi progreso, prácticas y apuntes del curso de Python 
 
 ## 📂 Estructura del Curso
 
-* [x] **Unidad 1: Fundamentos** * Instalación y configuración.
-  * Variables, tipos de datos y estructuras (listas, diccionarios, tuplas).
-  * Control de flujo (condicionales y bucles).
-* [ ] **Unidad 2:** *(Por definir)*
+* [x] **Unidad 1: Fundamentos** * Instalación, variables, tipos de datos y control de flujo.
+* [x] **Unidad 2: Manejo de datos y programación intermedia**
+  * Estructuras de datos (Listas, Tuplas, Conjuntos, Diccionarios).
+  * Funciones y modularidad.
+  * Manejo de archivos externos y excepciones (`try/except`).
 * [ ] **Unidad 3:** *(Por definir)*
 
 ## 🛠️ Tecnologías y Herramientas
