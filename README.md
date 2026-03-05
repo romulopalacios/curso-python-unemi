@@ -23,6 +23,8 @@ Este repositorio documenta mi trayectoria de aprendizaje en el curso de Python i
 - Implementar manejo robusto de archivos y excepciones
 - Aplicar Programación Orientada a Objetos para diseño de software
 - Automatizar tareas del sistema operativo con scripts
+- Dominar decoradores, generadores y comunicación con APIs
+- Optimizar recursos del sistema con programación eficiente
 - Prepararse para desarrollo backend y análisis de datos
 
 ---
@@ -76,7 +78,24 @@ Programación Orientada a Objetos, polimorfismo y scripts de automatización del
 
 ---
 
-### 🔜 Unidad 4: Temas Avanzados
+### ✅ [Unidad 4: Programación Avanzada e Integración Web](./Unidad_4_Programacion_Avanzada)
+Decoradores, generadores y consumo de APIs REST para sistemas conectados.
+
+**Temas:**
+- 🎨 Decoradores personalizados y `@functools.wraps`
+- ⚡ Generadores con `yield` para eficiencia de memoria
+- 🌐 Peticiones GET y POST a APIs REST
+- 📡 Integración con servicios web usando `requests`
+- 📖 [Notas Conceptuales Completas](./Unidad_4_Programacion_Avanzada/notas.md)
+
+**Archivos de Práctica:**
+- [`u4_tema_1_decoradores.py`](./Unidad_4_Programacion_Avanzada/u4_tema_1_decoradores.py)
+- [`u4_tema_2_generadores.py`](./Unidad_4_Programacion_Avanzada/u4_tema_2_generadores.py)
+- [`u4_tema_3_obtener_y_enviar_datos_a_una_api.py`](./Unidad_4_Programacion_Avanzada/u4_tema_3_obtener_y_enviar_datos_a_una_api.py)
+
+---
+
+### 🔜 Unidad 5: Temas Especializados
 *(Por definir - Próximamente)*
 
 ---
@@ -87,6 +106,7 @@ Programación Orientada a Objetos, polimorfismo y scripts de automatización del
 - Python 3.10 o superior instalado ([Descargar Python](https://www.python.org/downloads/))
 - Editor de código (recomendado: [VS Code](https://code.visualstudio.com/))
 - Git instalado (opcional, para clonar el repositorio)
+- Librería `requests` (para Unidad 4): `pip install requests`
 
 ### Instalación
 
@@ -100,6 +120,15 @@ Programación Orientada a Objetos, polimorfismo y scripts de automatización del
    ```bash
    python --version
    # Debe mostrar Python 3.10 o superior
+   ```
+
+3. **Instalar dependencias (requerido para Unidad 4):**
+   ```bash
+   pip install -r requirements.txt
+   ```
+   O instalación manual:
+   ```bash
+   pip install requests
    ```
 
 ### Ejecutar los Scripts
@@ -124,12 +153,20 @@ cd Unidad-3-POO-Automatizacion
 python u3_tema_1_clases,_herencias.py
 ```
 
+```bash
+# Ejemplo: Ejecutar práctica de la Unidad 4 (requiere requests)
+cd Unidad_4_Programacion_Avanzada
+pip install requests  # Solo la primera vez
+python u4_tema_1_decoradores.py
+```
+
 ### Explorar las Notas Conceptuales
 
 Cada unidad incluye un archivo `notas.md` con explicaciones detalladas, fundamentos teóricos y mejores prácticas:
 - [📖 Notas Unidad 1 - Fundamentos](./Unidad-1-Fundamentos/notas.md)
 - [📖 Notas Unidad 2 - Manejo de Datos](./Unidad-2-Manejo-de-Datos/notas.md)
 - [📖 Notas Unidad 3 - POO y Automatización](./Unidad-3-POO-Automatizacion/notas.md)
+- [📖 Notas Unidad 4 - Programación Avanzada](./Unidad_4_Programacion_Avanzada/notas.md)
 
 ---
 
@@ -138,6 +175,7 @@ Cada unidad incluye un archivo `notas.md` con explicaciones detalladas, fundamen
 | Herramienta | Versión/Uso |
 |------------|-------------|
 | **Python** | 3.13.3 |
+| **requests** | 2.31.0+ (Consumo de APIs REST) |
 | **Google Colab** | Entorno de desarrollo y práctica |
 | **VS Code** | Editor local para documentación |
 | **Git/GitHub** | Control de versiones y portfolio |
@@ -175,7 +213,3 @@ Este repositorio sirve como mi **cuaderno digital de aprendizaje**. Todos los sc
 Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
 
 ---
-
-<div align="center">
-  <sub>Desarrollado con 💙 como parte de mi formación en la UNEMI</sub>
-</div>

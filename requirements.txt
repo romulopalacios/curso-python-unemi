@@ -1,0 +1,10 @@
+# Dependencias del Curso Python UNEMI
+# Instalar con: pip install -r requirements.txt
+
+# Unidad 4: Programación Avanzada e Integración Web
+requests>=2.31.0
+
+# Dependencias opcionales para desarrollo
+# pytest>=7.4.0  # Para testing
+# black>=23.0.0  # Para formateo de código
+# flake8>=6.0.0  # Para linting
